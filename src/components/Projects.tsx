@@ -18,7 +18,7 @@ const ProjectCard = ({ project }: { project: Project }) => (
         <img
           src={project.image}
           alt={project.name}
-          className="w-24 h-24 rounded-lg object-cover border-2 border-cyan-500/40 mb-4 shadow-lg shadow-cyan-500/30 group-hover:shadow-cyan-400/50 transition-shadow duration-300"
+          className="w-52 h-40 rounded-lg object-cover border-2 border-cyan-500/40 mb-4 shadow-lg shadow-cyan-500/30 group-hover:shadow-cyan-400/50 transition-shadow duration-300"
         />
       ) : (
         <div className="w-16 h-16 bg-gradient-to-br from-cyan-500 to-blue-600 rounded-lg flex items-center justify-center text-white mb-4 shadow-lg shadow-cyan-500/50">
@@ -60,7 +60,7 @@ export default function Projects() {
       description:
         "An AIoT-based Vehicle Maintenance System that combines AI, IoT, and predictive analytics to automate vehicle care, prevent breakdowns, and enhance service efficiency through Flutter, React.js, Node.js, and Flask integration.",
       technologies: ["MERN", "Flask", "Keras", "Tailwind"],
-      image: "/abd.jpg",
+      image: "3.jpg",
       driveLink: "https://drive.google.com/drive/folders/1HEo-6CJhf2GCM2UnkQy3rsaRZ8B5Nh2E?usp=drive_link",
     },
     {
@@ -68,14 +68,14 @@ export default function Projects() {
       description:
         "An AI-powered Smart Agriculture System that uses CNN and Firebase to help farmers make data-driven crop and pest management decisions with over 90% prediction accuracy.",
       technologies: ["React", "Node.js", "MongoDB", "Express"],
-      image: "/azans.jpg",
+      image: "2.jpg",
       driveLink: "https://drive.google.com/drive/folders/1ickVSGXqOlABprXNZ0FPa9vEkoVlJ-V_?usp=drive_link",
     },
   {
   name: "AutoModel Insight",
   description: "A car identification system that detects make, model, and variant using AI. It also provides detailed car insights and enables users to view and modify 3D models for enhanced visualization.",
   technologies: ["MERN", "Flask", "TensorFlow"],
-  image: "/amis.jpg",
+  image: " 1.jpg",
   driveLink: "    https://drive.google.com/drive/folders/14qo7BCameZUVC3p41vRYIHSqIt8iDlFV?usp=drive_link",
 },
 
