@@ -18,12 +18,12 @@ export default function Hero() {
 
           <h1 className="text-6xl sm:text-7xl lg:text-8xl font-bold mb-6 leading-tight">
             <span className="bg-gradient-to-r from-cyan-400 via-blue-400 to-cyan-400 bg-clip-text text-transparent animate-gradient">
-              FALCONZ NEURO
+                Abdur Rehman
             </span>
           </h1>
 
           <p className="text-xl sm:text-2xl text-gray-300 mb-12 leading-relaxed max-w-3xl mx-auto">
-            Where innovation meets intelligence. We craft experiences that evolve with the future.
+            Where innovation meets intelligence. I craft experiences that evolve with the future.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -31,7 +31,7 @@ export default function Hero() {
               href="#about"
               className="group inline-flex items-center justify-center space-x-2 bg-gradient-to-r from-cyan-500 to-blue-600 text-white px-8 py-4 rounded-lg font-medium text-lg overflow-hidden hover:shadow-xl hover:shadow-cyan-500/50 transition-all duration-300 hover:scale-105"
             >
-              <span>Explore Our Vision</span>
+              <span>Explore My Vision</span>
               <ChevronRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </a>
             <a

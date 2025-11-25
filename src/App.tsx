@@ -24,7 +24,7 @@ function App() {
       <Navigation mobileMenuOpen={mobileMenuOpen} setMobileMenuOpen={setMobileMenuOpen} />
       <Hero />
       <About setModalContent={setModalContent} />
-      <Team />
+      {/* <Team /> */}
       <Services />
       <WhyChooseUs />
       <Projects/>

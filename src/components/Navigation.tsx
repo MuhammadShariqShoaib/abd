@@ -13,19 +13,19 @@ export default function Navigation({ mobileMenuOpen, setMobileMenuOpen }: Naviga
           <div className="flex items-center space-x-3">
             <div className="relative">
               <div className="absolute  blur-lg opacity-50" />
-<div className="relative w-20 h-16 rounded-lg flex items-center justify-center  overflow-hidden">
+{/* <div className="relative w-20 h-16 rounded-lg flex items-center justify-center  overflow-hidden">
   <img
     src="/FalconZ logo.png" // ✅ your custom image
     alt="SSAZ Logo"
     className="w-full h-full object-cover"
   />
-</div>
+</div> */}
 
 
             </div>
             <div>
               <span className="text-2xl font-bold bg-gradient-to-r from-cyan-400 to-blue-400 bg-clip-text text-transparent">
-                FALCONZ NEURO
+               Abdur Rehman 
               </span>
             </div>
           </div>

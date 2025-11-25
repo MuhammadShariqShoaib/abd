@@ -34,7 +34,7 @@ export default function WhyChooseUs() {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl sm:text-5xl font-bold mb-4 bg-gradient-to-r from-cyan-400 to-blue-400 bg-clip-text text-transparent">
-            Why Choose FalconZ Neuro
+            Why Choose Me
           </h2>
           <p className="text-xl text-gray-300">
             At the frontier of technology innovation
