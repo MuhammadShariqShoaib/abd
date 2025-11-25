@@ -32,7 +32,7 @@ export default function Navigation({ mobileMenuOpen, setMobileMenuOpen }: Naviga
 
           <div className="hidden md:flex items-center space-x-8">
             <a href="#about" className="text-gray-300 hover:text-cyan-400 transition-colors font-medium">About</a>
-            <a href="#team" className="text-gray-300 hover:text-cyan-400 transition-colors font-medium">Team</a>
+            {/* <a href="#team" className="text-gray-300 hover:text-cyan-400 transition-colors font-medium">Team</a> */}
             <a href="#services" className="text-gray-300 hover:text-cyan-400 transition-colors font-medium">Services</a>
             <a href="#contact" className="group relative px-6 py-2.5 bg-gradient-to-r from-cyan-500 to-blue-600 rounded-lg font-medium overflow-hidden hover:shadow-lg hover:shadow-cyan-500/50 transition-all duration-300">
               <span className="relative z-10">Contact</span>
@@ -53,7 +53,7 @@ export default function Navigation({ mobileMenuOpen, setMobileMenuOpen }: Naviga
         <div className="md:hidden bg-slate-900/95 backdrop-blur-md border-t border-cyan-500/20">
           <div className="px-4 py-6 space-y-4">
             <a href="#about" className="block text-gray-300 hover:text-cyan-400 transition-colors font-medium">About</a>
-            <a href="#team" className="block text-gray-300 hover:text-cyan-400 transition-colors font-medium">Team</a>
+            {/* <a href="#team" className="block text-gray-300 hover:text-cyan-400 transition-colors font-medium">Team</a> */}
             <a href="#services" className="block text-gray-300 hover:text-cyan-400 transition-colors font-medium">Services</a>
             <a href="#contact" className="block bg-gradient-to-r from-cyan-500 to-blue-600 text-white px-6 py-2.5 rounded-lg text-center font-medium">
               Contact

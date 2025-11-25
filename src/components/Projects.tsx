@@ -88,7 +88,7 @@ export default function Projects() {
         <div className="text-center mb-16">
           <div className="inline-flex items-center space-x-2 text-cyan-400 mb-4">
             <FolderOpen className="w-6 h-6" />
-            <span className="font-semibold">Our Work</span>
+            <span className="font-semibold">Work</span>
           </div>
           <h2 className="text-4xl sm:text-5xl font-bold mb-4 bg-gradient-to-r from-cyan-400 to-blue-400 bg-clip-text text-transparent">
             Featured Projects
