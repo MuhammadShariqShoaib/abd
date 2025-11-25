@@ -94,7 +94,7 @@ export default function Projects() {
             Featured Projects
           </h2>
           <p className="text-xl text-gray-300 max-w-2xl mx-auto">
-            A showcase of our innovative web and AI-based solutions
+            A showcase of innovative web and AI-based solutions
           </p>
         </div>
 
